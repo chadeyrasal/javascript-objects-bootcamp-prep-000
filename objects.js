@@ -7,8 +7,8 @@ var artistName
 var songTitle
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  artistName = 'samCook'
-  songTitle = 'wonderful world'
+  artistName = 'Phil Ochs'
+  songTitle = 'Here is to the State of Mississippi'
   playlist[artistName] = songTitle
   return playlist
 }
