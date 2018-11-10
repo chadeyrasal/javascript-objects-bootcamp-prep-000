@@ -3,4 +3,7 @@ var playlist = {
   alpha: 'sweet fanta diallo'
 }
 
-updatePlaylist(playlist, samCook, 'wonderful world')
+function updatePlaylist(playlist, samCook, 'wonderful world') {
+  playlist[samCook] = 'wonderful world'
+  return playlist
+}
